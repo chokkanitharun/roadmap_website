@@ -281,7 +281,7 @@ if (isset($_SESSION["logged_in"]) && $_SESSION["logged_in"] === true && isset($_
         }
 
         .roadmap-card {
-            width: 100%;
+            width: 90%;
         }
 
         footer {
@@ -536,7 +536,7 @@ if (isset($_SESSION["logged_in"]) && $_SESSION["logged_in"] === true && isset($_
 <header>
     <div class="navbar">
         <div class="logo">
-            <img src="roadmaplogo.png" alt="Logo">
+           
         </div>
         <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">☰</a>
   <div id="myLinks">
