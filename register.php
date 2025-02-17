@@ -17,6 +17,9 @@
             align-items: center;
             overflow: hidden; /* Prevent scrolling during animation */
         }
+        p{
+            padding-right:50px;
+        }
 
         .container {
     display: flex;
@@ -62,11 +65,12 @@
 
         .login-form h2 {
             margin-bottom: 20px;
+            padding-right:50px;
             color: #e05d5dff;
         }
 
         .login-form input {
-            width: 100%;
+            width: 85%;
             padding: 10px;
             margin: 10px 0;
             border: 1px solid #ccc;
@@ -74,7 +78,7 @@
         }
 
         .login-form button {
-            width: 100%;
+            width: 90%;
             padding: 10px;
             background-color: #e05d5dff;
             color: #ffffff;
@@ -204,7 +208,7 @@
             <p>Already have an account? <a href="login.php">Login here</a></p>
         </div>
         <div class="image-section" id="imageSection">
-            <div class="welcome-text" id="welcomeText">Welcome</div>
+            <div class="welcome-text" id="welcomeText">.</div>
         </div>
     </div>
     <script>
